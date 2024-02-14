@@ -1,0 +1,106 @@
+p {
+  color: brown;
+  font-family: "Poor Story", system-ui;
+  font-size: 16px;
+}
+h1 {
+  border: 2px solid tomato;
+  border-radius: 10px;
+}
+#last-para {
+  width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  width: 600px;
+  margin: auto;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: beige;
+}
+.imge:hover {
+  border: 2px solid tomato;
+  width: 200px;
+}
+
+#soccerimg:hover {
+  border: 2px solid black;
+  width: 150px;
+}
+
+#CompSciImg:hover {
+  border: 2px solid blue;
+  width: 300px;
+  height: 200px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+div {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 75px;
+  height: 75px;
+  background-color: red;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+  margin: auto;
+}
+
+@keyframes myfirst {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    background-color: blue;
+    left: 50px;
+    top: 0px;
+  }
+  50% {
+    background-color: yellow;
+    left: 50px;
+    top: 50px;
+  }
+  75% {
+    background-color: green;
+    left: 0px;
+    top: 50px;
+  }
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+html {
+  background-image: url("images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: auto;
+}
+h1 {
+  border: 2px solid tomato;
+}
